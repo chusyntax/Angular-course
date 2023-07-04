@@ -1,0 +1,9 @@
+<!--ngStyle allows us to dynamically update the style-->
+<p [ngStyle]="{backgroundColor: getColor()}"
+   [ngClass]="{online: serverStatus ==='online'}"
+>{{'server'}} with ID {{serverId}} is {{serverStatus}}</p>
+
+<!--ngClass allows us to add or remove a class-->
+
+
+<!--With string interpolation, the rule is any method within the braces must return a string in the end . You also cannot write multiline expressions in the curly braces -->

@@ -1,0 +1,8 @@
+p{
+    margin: 10px;
+    color:blueviolet;
+}
+/* 
+Side Note
+
+Slecting byt ID and pseudo selectors dont work with inline angular styling */
